@@ -10,7 +10,7 @@
     "template"
   ],
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=v18.16.1"
   },
   "scripts": {
     "prepare": "husky install",
