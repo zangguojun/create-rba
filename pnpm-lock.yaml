@@ -4,32 +4,32 @@ importers:
 
   .:
     specifiers:
-      '@tsconfig/node18': ^2.0.0
-      '@types/eslint': ^8.37.0
-      '@types/node': ^18.16.3
+      '@tsconfig/node18': ^2.0.1
+      '@types/eslint': ^8.44.0
+      '@types/node': ^18.16.19
       '@types/prompts': ^2.4.4
       dedent: ^0.7.0
       esbuild: ^0.17.18
       esbuild-plugin-license: ^1.2.2
       husky: ^8.0.3
       kolorist: ^1.8.0
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       minimist: ^1.2.8
       npm-run-all: ^4.1.5
       prettier: ^2.8.8
       prompts: ^2.4.2
       zx: ^4.3.0
     devDependencies:
-      '@tsconfig/node18': 2.0.0
-      '@types/eslint': 8.37.0
-      '@types/node': 18.16.5
+      '@tsconfig/node18': 2.0.1
+      '@types/eslint': 8.44.0
+      '@types/node': 18.16.19
       '@types/prompts': 2.4.4
       dedent: 0.7.0
       esbuild: 0.17.18
       esbuild-plugin-license: 1.2.2_esbuild@0.17.18
       husky: 8.0.3
       kolorist: 1.8.0
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       minimist: 1.2.8
       npm-run-all: 4.1.5
       prettier: 2.8.8
@@ -257,12 +257,12 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tsconfig/node18/2.0.0:
-    resolution: {integrity: sha512-uI/B0ShkiEwTk036pncXucVlj4y11EW6mycQvCEzC1PkR2TBvdQZ5Wf96dp+XXWAc70FEDfvwTqanoaDpP6rPw==}
+  /@tsconfig/node18/2.0.1:
+    resolution: {integrity: sha512-UqdfvuJK0SArA2CxhKWwwAWfnVSXiYe63bVpMutc27vpngCntGUZQETO24pEJ46zU6XM+7SpqYoMgcO3bM11Ew==}
     dev: true
 
-  /@types/eslint/8.37.0:
-    resolution: {integrity: sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==}
+  /@types/eslint/8.44.0:
+    resolution: {integrity: sha512-gsF+c/0XOguWgaOgvFs+xnnRqt9GwgTvIks36WpE6ueeI4KCEHHd8K/CKHqhOqrJKsYH8m27kRzQEvWXAwXUTw==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.11
@@ -275,7 +275,7 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.19
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -289,7 +289,7 @@ packages:
   /@types/node-fetch/2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.19
       form-data: 3.0.1
     dev: true
 
@@ -297,14 +297,14 @@ packages:
     resolution: {integrity: sha512-pCNBzNQqCXE4A6FWDmrn/o1Qu+qBf8tnorBlNoPNSBQJF+jXzvTKNI/aMiE+hGJbK5sDAD65g7OS/YwSHIEJdw==}
     dev: true
 
-  /@types/node/18.16.5:
-    resolution: {integrity: sha512-seOA34WMo9KB+UA78qaJoCO20RJzZGVXQ5Sh6FWu0g/hfT44nKXnej3/tCQl7FL97idFpBhisLYCTB50S0EirA==}
+  /@types/node/18.16.19:
+    resolution: {integrity: sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==}
     dev: true
 
   /@types/prompts/2.4.4:
     resolution: {integrity: sha512-p5N9uoTH76lLvSAaYSZtBCdEXzpOOufsRjnhjVSrZGXikVGHX9+cc9ERtHRV4hvBKHyZb1bg4K+56Bd2TqUn4A==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.19
       kleur: 3.0.3
     dev: true
 
@@ -1068,8 +1068,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lint-staged/13.2.2:
-    resolution: {integrity: sha512-71gSwXKy649VrSU09s10uAT0rWCcY3aewhMaHyl2N84oBk4Xs9HgxvUp3AYu+bNsK4NrOYYxvSgg7FyGJ+jGcA==}
+  /lint-staged/13.2.3:
+    resolution: {integrity: sha512-zVVEXLuQIhr1Y7R7YAWx4TZLdvuzk7DnmrsTNL0fax6Z3jrpFcas+vKbzxhhvp6TA55m1SQuWkpzI1qbfDZbAg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
