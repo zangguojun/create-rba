@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@tsconfig/node18': ^2.0.0
+      '@tsconfig/node18': ^18.2.4
       '@types/eslint': ^8.37.0
       '@types/node': ^18.16.3
       '@types/prompts': ^2.4.4
@@ -20,7 +20,7 @@ importers:
       prompts: ^2.4.2
       zx: ^4.3.0
     devDependencies:
-      '@tsconfig/node18': 2.0.0
+      '@tsconfig/node18': 18.2.4
       '@types/eslint': 8.37.0
       '@types/node': 18.16.5
       '@types/prompts': 2.4.4
@@ -257,8 +257,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tsconfig/node18/2.0.0:
-    resolution: {integrity: sha512-uI/B0ShkiEwTk036pncXucVlj4y11EW6mycQvCEzC1PkR2TBvdQZ5Wf96dp+XXWAc70FEDfvwTqanoaDpP6rPw==}
+  /@tsconfig/node18/18.2.4:
+    resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
     dev: true
 
   /@types/eslint/8.37.0:
