@@ -8,7 +8,7 @@ importers:
       '@types/eslint': ^8.37.0
       '@types/node': ^18.16.3
       '@types/prompts': ^2.4.4
-      dedent: ^0.7.0
+      dedent: ^1.5.3
       esbuild: ^0.17.18
       esbuild-plugin-license: ^1.2.2
       husky: ^8.0.3
@@ -24,7 +24,7 @@ importers:
       '@types/eslint': 8.37.0
       '@types/node': 18.16.5
       '@types/prompts': 2.4.4
-      dedent: 0.7.0
+      dedent: 1.5.3
       esbuild: 0.17.18
       esbuild-plugin-license: 1.2.2_esbuild@0.17.18
       husky: 8.0.3
@@ -526,8 +526,13 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /dedent/0.7.0:
-    resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
+  /dedent/1.5.3:
+    resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
+    peerDependencies:
+      babel-plugin-macros: ^3.1.0
+    peerDependenciesMeta:
+      babel-plugin-macros:
+        optional: true
     dev: true
 
   /define-properties/1.2.0:
