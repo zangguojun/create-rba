@@ -30,7 +30,7 @@
   "homepage": "https://github.com/zangguojun/create-rba",
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/eslint": "^8.37.0",
+    "@types/eslint": "^9.6.1",
     "@types/node": "^18.16.3",
     "@types/prompts": "^2.4.4",
     "dedent": "^0.7.0",
