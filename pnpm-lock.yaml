@@ -11,7 +11,7 @@ importers:
       dedent: ^0.7.0
       esbuild: ^0.17.18
       esbuild-plugin-license: ^1.2.2
-      husky: ^8.0.3
+      husky: ^9.1.6
       kolorist: ^1.8.0
       lint-staged: ^13.2.2
       minimist: ^1.2.8
@@ -27,7 +27,7 @@ importers:
       dedent: 0.7.0
       esbuild: 0.17.18
       esbuild-plugin-license: 1.2.2_esbuild@0.17.18
-      husky: 8.0.3
+      husky: 9.1.6
       kolorist: 1.8.0
       lint-staged: 13.2.2
       minimist: 1.2.8
@@ -880,9 +880,9 @@ packages:
     engines: {node: '>=14.18.0'}
     dev: true
 
-  /husky/8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  /husky/9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 
