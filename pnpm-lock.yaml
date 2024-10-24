@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@tsconfig/node18': ^2.0.0
       '@types/eslint': ^8.37.0
-      '@types/node': ^18.16.3
+      '@types/node': ^20.17.0
       '@types/prompts': ^2.4.4
       dedent: ^0.7.0
       esbuild: ^0.17.18
@@ -22,7 +22,7 @@ importers:
     devDependencies:
       '@tsconfig/node18': 2.0.0
       '@types/eslint': 8.37.0
-      '@types/node': 18.16.5
+      '@types/node': 20.17.0
       '@types/prompts': 2.4.4
       dedent: 0.7.0
       esbuild: 0.17.18
@@ -275,7 +275,7 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 20.17.0
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -289,7 +289,7 @@ packages:
   /@types/node-fetch/2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 20.17.0
       form-data: 3.0.1
     dev: true
 
@@ -297,14 +297,16 @@ packages:
     resolution: {integrity: sha512-pCNBzNQqCXE4A6FWDmrn/o1Qu+qBf8tnorBlNoPNSBQJF+jXzvTKNI/aMiE+hGJbK5sDAD65g7OS/YwSHIEJdw==}
     dev: true
 
-  /@types/node/18.16.5:
-    resolution: {integrity: sha512-seOA34WMo9KB+UA78qaJoCO20RJzZGVXQ5Sh6FWu0g/hfT44nKXnej3/tCQl7FL97idFpBhisLYCTB50S0EirA==}
+  /@types/node/20.17.0:
+    resolution: {integrity: sha512-a7zRo0f0eLo9K5X9Wp5cAqTUNGzuFLDG2R7C4HY2BhcMAsxgSPuRvAC1ZB6QkuUQXf0YZAgfOX2ZyrBa2n4nHQ==}
+    dependencies:
+      undici-types: 6.19.8
     dev: true
 
   /@types/prompts/2.4.4:
     resolution: {integrity: sha512-p5N9uoTH76lLvSAaYSZtBCdEXzpOOufsRjnhjVSrZGXikVGHX9+cc9ERtHRV4hvBKHyZb1bg4K+56Bd2TqUn4A==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 20.17.0
       kleur: 3.0.3
     dev: true
 
@@ -1695,6 +1697,10 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
+    dev: true
+
+  /undici-types/6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
     dev: true
 
   /universalify/2.0.0:
